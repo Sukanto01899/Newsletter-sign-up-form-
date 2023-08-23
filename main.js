@@ -4,8 +4,6 @@ emailInput = document.querySelector('#email'),
 submitBtn = document.querySelector('#submit-btn'),
 dismissMessage = document.querySelector('#dismissMessage')
 
-
-
 submitBtn.addEventListener('click', (e)=>{
     e.preventDefault();
 
@@ -37,3 +35,5 @@ dismissMessage.addEventListener('click', ()=>{
     successContainer.style.display = 'none'
     container.style.display = 'flex';
 })
+
+// First Branch
